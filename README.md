@@ -13,6 +13,8 @@ body-parser
 
 opn
 
+nodemon
+
 # To run the application
 
 npx nodemon main.js
