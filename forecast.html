@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: rgb(171, 163, 160);}
+ input[type=text] {
+            border: 2px solid red;
+            border-radius: 4px;
+            
+ }
+
+
+ input[type=text] {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    </style>
+       
+          
+        <!-- <link rel="stylesheet" href="mywebsite.css"> -->
+        <title>5 day forecast values</title>
+    </head>
+    <body>
+        <h1>OpenWeatherMap 5 day forecast values</h1>
+
+        <form action="/get_forecast" method="GET" id="my-form" class="form-style">
+         <label for="city">City</label> 
+      <input type="text" id="city" name="city"  required><br>
+      <br><input type="submit" value="submit">
+    </form>
+    </body>
+</html>

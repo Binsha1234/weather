@@ -1,0 +1,25 @@
+
+<html>
+  <head>
+    <style>
+       body{background-color: rgb(171, 163, 160);}
+    </style>
+    <title>OpenWeatherMap Pollution Data</title>
+  </head>
+  <body>
+    <h1>OpenWeatherMap Pollution Data</h1><br>
+
+    <p>Here is the pollution data for the specified location:</p><br>
+    
+    <ul>
+      <p>Air Quality Index : <%=quality.aqi%></p><br>
+      <p>Carbon Monoxide: <%= pollution.co%></p><br>
+      <p>Nitrogen Oxide: <%= pollution.no%></p><br>
+      <p>Nitrogen Dioxide: <%= pollution.no2%></p><br>
+      <p>Ozone: <%= pollution.o3%></p><br>
+      <p>Sulphur Dioxide: <%= pollution.so2%></p><br>
+      <p>particulates: <%= pollution.pm10%></p><br>
+
+    </ul>
+  </body>
+</html>
